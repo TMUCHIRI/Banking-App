@@ -1,0 +1,8 @@
+module BankingApp {
+  interface Bank {
+    long deposit(in long amount);
+    long withdraw(in long amount);
+    long getBalance();
+    void shutdown();
+  };
+};
